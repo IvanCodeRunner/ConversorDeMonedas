@@ -1,29 +1,49 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Compiled class files
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Directories
+/bin/
+/build/
+/out/
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+*.hprof
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Gradle
+.gradle/
+build/
+**/build/
+**/out/
+
+# Eclipse
+.metadata/
+*.classpath
+*.project
+*.settings/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+*.nb-gradle/
